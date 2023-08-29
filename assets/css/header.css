@@ -1,0 +1,46 @@
+.header{
+    background-color:aliceblue;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0rem 2rem;
+}
+
+@media screen and (min-width0){
+       .header{
+        justify-content: center;
+        padding:0 1rem;
+       }    
+}
+
+@media screen and (min-width:768px) {
+    .header{
+        justify-content: space-between;
+        padding:0, 5rem;
+    }
+    
+}
+
+
+.menu{
+    color: red;
+}
+
+.menu__list{
+    display: flex;
+}
+ 
+.menu__item{
+    padding: 0 2rem;
+    list-style: none;
+}
+.menu link{
+    color: brown;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+.menu__link :active{
+    color: blanchedalmond;
+    font:bold;
+
+}

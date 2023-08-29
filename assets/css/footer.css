@@ -1,0 +1,32 @@
+.footer{
+    background: #bfbfbf;
+    color: #fdfdff;
+    
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 500px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* instaram */
+.Instagram {
+  background: #55ACEE;
+  color: white;
+}
+/* twitter */
+.twitter {
+  background: #3B5998;
+  color: #3B5998;
+}
